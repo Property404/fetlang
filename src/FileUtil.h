@@ -6,6 +6,9 @@
 namespace FileUtil{
 	namespace fs = boost::filesystem;
 
+	// Get temp folder
+	std::string getTemporaryDirectory();
+
 	// Return list of files in a directory
 	// throw an exception if directory doesn't exist
 	// Non-recursive

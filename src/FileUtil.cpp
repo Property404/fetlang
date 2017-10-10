@@ -8,6 +8,10 @@
 
 namespace FileUtil {
 
+std::string getTemporaryDirectory(){
+	return fs::temp_directory_path().filename().string();
+}
+
 std::vector<std::string> getFilesInDirectory(const std::string& directory_name){
 	std::vector<std::string> filenames;
 	fs::path directory(directory_name);

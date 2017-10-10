@@ -35,7 +35,7 @@ Builder::Builder(){
 
 	// Now we have to find the temporary directory
 	//TODO: Fix for all operating systems
-	build_path = std::string("/tmp/")+BUILD_FOLDER_RELATIVE;
+	build_path = FileUtil::getTemporaryDirectory()+BUILD_FOLDER_RELATIVE;
 }
 
 std::string Builder::transpile() const{
