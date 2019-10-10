@@ -5,6 +5,9 @@
 #include <fstream>
 #include <iostream>
 #include <algorithm>
+#include <filesystem>
+
+namespace fs = std::filesystem;
 
 namespace FileUtil {
 

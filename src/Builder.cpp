@@ -1,4 +1,5 @@
 #include <fstream>
+#include <algorithm>
 #include <string>
 #include <sstream>
 #ifdef __WIN32__
