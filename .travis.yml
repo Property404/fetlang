@@ -7,6 +7,9 @@ os:
   - linux
   - osx
 
+osx_image:
+  - xcode11.2
+
 # Compiler selection
 compiler:
   - clang++
