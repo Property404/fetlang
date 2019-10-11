@@ -1,4 +1,5 @@
 #include <fstream>
+#include <sstream>
 #include "FileUtil.h"
 #include "thirdparty/json.hpp"
 #include "FetlangManager.h"
